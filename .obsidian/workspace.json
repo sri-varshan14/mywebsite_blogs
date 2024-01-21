@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/my-first-blog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59ccb39c4458fa1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview-prep/my-interview-preparation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11120bd9e9a4d8f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview-prep/my-interview-preparation.md",
+                "file": "notes/effective-tcp-ip-programming.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview-prep/my-interview-preparation.md",
+                "file": "notes/effective-tcp-ip-programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview-prep/my-interview-preparation.md",
+                "file": "notes/effective-tcp-ip-programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview-prep/my-interview-preparation.md"
+                "file": "notes/effective-tcp-ip-programming.md"
               }
             }
           },
@@ -169,11 +144,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "11120bd9e9a4d8f1",
+  "active": "75716d1a4590fd71",
   "lastOpenFiles": [
-    "interview-prep/introduction.md",
-    "interview-prep/my-interview-preparation.md",
+    "notes/my-interview-prep.md",
+    "notes/effective-tcp-ip-programming.md",
+    "Untitled",
+    "notes/assets/Effective TCP IP Programming/figure1_1.png",
     "personal/my-first-blog.md",
+    "notes/Computer Vision- Algorithms and Applications.md",
+    "blogs/markdown/c13fc2d2-40fc-410b-ab7e-ac1bbb7907de.md",
+    "interview-prep/recursion-and-backtracking.md",
+    "blogs/markdown",
+    "blogs/images/default.jpg",
+    "blogs/images",
+    "blogs",
+    "drawing/Effective TCP IP Programming.excalidraw.md",
+    "drawing",
+    "notes/assets/Effective TCP IP Programming/figure1_3.png",
+    "notes/assets/Effective TCP IP Programming/figure1_2.png",
+    "notes/assets/Effective TCP IP Programming",
+    "notes/assets",
+    "notes",
+    "interview-prep/my-interview-preparation.md",
+    "interview-prep/introduction.md",
     "Welcome.md",
     "create a link.md"
   ]
