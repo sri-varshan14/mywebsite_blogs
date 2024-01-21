@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/effective-tcp-ip-programming.md",
+                "file": "notes/my-interview-prep.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/effective-tcp-ip-programming.md",
+                "file": "notes/my-interview-prep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/effective-tcp-ip-programming.md",
+                "file": "notes/my-interview-prep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/effective-tcp-ip-programming.md"
+                "file": "notes/my-interview-prep.md"
               }
             }
           },
@@ -146,12 +146,12 @@
   },
   "active": "75716d1a4590fd71",
   "lastOpenFiles": [
-    "notes/my-interview-prep.md",
     "notes/effective-tcp-ip-programming.md",
+    "notes/Computer Vision- Algorithms and Applications.md",
+    "notes/my-interview-prep.md",
     "Untitled",
     "notes/assets/Effective TCP IP Programming/figure1_1.png",
     "personal/my-first-blog.md",
-    "notes/Computer Vision- Algorithms and Applications.md",
     "blogs/markdown/c13fc2d2-40fc-410b-ab7e-ac1bbb7907de.md",
     "interview-prep/recursion-and-backtracking.md",
     "blogs/markdown",

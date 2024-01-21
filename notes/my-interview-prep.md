@@ -1,4 +1,4 @@
-# Interview Preparation
+# My Interview Preparation
 
 As I am  about to complete my Final of bachelor degree, I am thinking of applying for internship in companies. Note this is not the first time I am learning this concept I have a understanding of most of the problem and firm understanding of C. So I mention that this is revision of Data Structure and Algorithm. I am just preparing these notes so that it might help other students who are studying.
 
@@ -6,8 +6,8 @@ Also I want to mention that I am following a book *Data Structures and Algorithm
 
 ## Contents 
 
-- Introduction
-- Recursion and Backtracking
+- [Introduction](#introduction)
+- [Recursion and Backtracking](#recursion-and-backtracking)
 - Linked List
 - Stacks
 - Queues
@@ -30,5 +30,5 @@ Also I want to mention that I am following a book *Data Structures and Algorithm
 
 ## Introduction
 
-
+## Recursion and Backtracking
 
