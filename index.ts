@@ -8,7 +8,6 @@ import { createClient } from '@supabase/supabase-js'
 import * as dotenv from "dotenv";
 import { eq } from "drizzle-orm";
 dotenv.config();
-
 const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_ANON!)
 
 main().finally(() => {
@@ -105,7 +104,7 @@ function getPublicUrl(file: string) {
 }
 
 async function handle_objects(objects_content: Array<Objects>) {
-    let force = true;
+    let force = false;
     console.log("Do You want to Force update objects [y/n]? ")
 
     let obj_map = new Map();
@@ -117,7 +116,9 @@ async function handle_objects(objects_content: Array<Objects>) {
         let fileExist = obj_map.has(file);
         if (force || !fileExist) {
             let obj_content = readFileSync(file);
-            supabase.storage.from('open').upload(file, obj_content)
+            await supabase.storage.from('open').upload(file, obj_content, {
+                contentType: 'image/png'
+            })
             const url = getPublicUrl(file)
             objects_content.push({
                 path: file,

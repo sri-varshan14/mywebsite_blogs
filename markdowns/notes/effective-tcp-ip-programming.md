@@ -41,7 +41,7 @@ Although we commonly refer to entities as the 'client' and 'server,' it's not al
 
 After understanding the roles of servers and clients, let's consider the abstract example of a typical client-server situation. The figure below describes three situations based on the location of the server and client. Situation (a) involves both the server and client residing on the same host. This configuration is the simplest because no physical network is involved. Output data follows the usual path down the TCP/IP stack. However, instead of being placed on a network device's output queue, it loops back internally and travels back up the stack as input.
 
-![figure1_1.png](/assets/notes/effective-tcp-ip-programming/figure1_1.png)
+![figure1_1.png](https://xyfltawoiafeaqbptzqa.supabase.co/storage/v1/object/public/open/assets/notes/effective-tcp-ip-programming/figure1_1.png)
 
 There are several advantages to this setup during development. Firstly, there's no network latency, aiding in testing raw performance. Secondly, it provides an idealized laboratory environment where packets are neither dropped nor delivered out of order. Finally, development becomes more manageable and convenient when debugging on the same machine.
 
@@ -55,7 +55,7 @@ In this section we review the basic sockets API and use it to build rudimentary 
 
 Let's start with the API calls we need for a simple client. The Figure below show the basic socket calls that are used by every client. The address of our peer is specified in a *sockaddr_in* in structure that is passed to connect.
 
-![figure1_2.png](/assets/notes/effective-tcp-ip-programming/figure1_2.png)
+![figure1_2.png](https://xyfltawoiafeaqbptzqa.supabase.co/storage/v1/object/public/open/assets/notes/effective-tcp-ip-programming/figure1_2.png)
 
 Generally the first thing we must do is to obtain a socket for establishing a connection to the server. We do this socket system call to obtain it.
 
@@ -191,4 +191,4 @@ Let's now summarize the TCP Client, First **Set up Our Peer Addreess** we fill t
 
 Before executing the client we need a server to accept a connection. So We need to write code for now. A server must listen for client connection on its well-known port . To Listen in particular port we use the *listen* call
 
-![figure1_3.png](/assets/notes/effective-tcp-ip-programming/figure1_3.png)
+![figure1_3.png](https://xyfltawoiafeaqbptzqa.supabase.co/storage/v1/object/public/open/assets/notes/effective-tcp-ip-programming/figure1_3.png)
